@@ -111,8 +111,7 @@ streamlit run dashboard.py
 ├── requirements.txt      # Python dependencies
 └── README.md
 ```
-🎯 Design Philosophy
-One screen = one narrative
+## 🎯 Design Philosophy
 
 Risk Score as primary visual anchor
 
@@ -122,7 +121,7 @@ Minimal cognitive load, maximum clarity
 
 "Not just data. Decisions."
 
-🚀 Future Roadmap
+## 🚀 Future Roadmap
 Real-time API integration (Open-Meteo, WAQI)
 
 LSTM deep learning forecasting
@@ -135,13 +134,13 @@ Expand to 50+ cities
 
 Mobile-responsive layout
 
-📊 Example Output
+## 📊 Example Output
 City	Risk Score	Level
 Delhi	76	🔴 Extreme
 Beijing	44	🟡 Moderate
 Tokyo	15	🟢 Low
 Reykjavik	8	🟢 Low
-🧠 Research Value
+## 🧠 Research Value
 This project demonstrates:
 
 Novel composite index design for environmental health
@@ -152,10 +151,10 @@ Human-centered risk visualization with Decision-First philosophy
 
 Interpretable ML-inspired systems for public health applications
 
-📌 Author
+## 📌 Author
 Built as a Climate Data Intelligence Research Prototype.
 
 Focus: Environmental Analytics · Risk Quantification · AI-Assisted Decision Systems
 
-📄 License
+## 📄 License
 MIT — Free to use, modify, and distribute.
