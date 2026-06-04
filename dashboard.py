@@ -1123,7 +1123,7 @@ with col_fore:
 # ── FOOTER ────────────────────────────────────────────────────
 st.markdown(f"""
 <div class="footer">
-  <div class="footer-left">Climate Risk Intelligence · Research Prototype v2.0</div>
+  <div class="footer-left">Climate Risk Intelligence · Created by YUKI · v3.0</div>
   <div class="footer-right">{now_str} UTC · 15 Cities · 4 Variables</div>
 </div>
 """, unsafe_allow_html=True)
