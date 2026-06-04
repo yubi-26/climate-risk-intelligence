@@ -55,19 +55,21 @@ Auto-generated health advisories based on risk level (Low / Moderate / High / Ex
 ---
 
 ## 🏗️ System Architecture
-Data Layer Processing Layer Analytics Layer Presentation
-(15 cities, CSV) → (Risk scoring, → (Trend simulation, → (Streamlit +
-normalization, cross-city pred, Plotly dashboard)
-similarity) forecast)
 
-text
+```
+Data Layer           Processing Layer       Analytics Layer        Presentation
+(15 cities, CSV)  →  (Risk scoring,      →  (Trend simulation,  →  (Streamlit +
+                      normalization,          cross-city pred,       Plotly dashboard)
+                      similarity)             forecast)
+```
 
 ---
 
 ## 🧮 Risk Model
-Risk Score = PM2.5×0.40 + Temperature_Anomaly×0.30 + Humidity_Deviation×0.20 + AQI×0.10
 
-text
+```
+Risk Score = PM2.5×0.40 + Temperature_Anomaly×0.30 + Humidity_Deviation×0.20 + AQI×0.10
+```
 
 | Score | Level | Color |
 |-------|-------|-------|
@@ -97,12 +99,18 @@ git clone https://github.com/yubi-26/climate-risk-intelligence.git
 cd climate-risk-intelligence
 pip install -r requirements.txt
 streamlit run dashboard.py
-📁 Project Structure
-text
+```
+
+---
+
+## 📁 Project Structure
+
+```
 ├── dashboard.py          # Main application
 ├── climate_data.csv      # 15 cities dataset
 ├── requirements.txt      # Python dependencies
 └── README.md
+```
 🎯 Design Philosophy
 One screen = one narrative
 
